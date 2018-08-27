@@ -7,6 +7,7 @@ body,html{
 }
 .con{
 	background-image: url(5.jpg);
+	 opacity: 0.8;
 	background-size: 100% 100%;
-	position: absolute;
+	border-radius: 25px;
 }
