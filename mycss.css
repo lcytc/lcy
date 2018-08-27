@@ -13,8 +13,6 @@ body,html{
 	background-image: url("5.jpg");
 	background-attachment: fixed;
 	border: 1px solid red;
-	margin-left: 50px;
 	margin-top: 10px;
-	margin-right: 50px;
 	border-radius: 100%;
 }
