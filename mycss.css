@@ -1,3 +1,4 @@
+@charset "utf-8";
 body,html{
 	top: 0px;
 	left:0px;
@@ -15,34 +16,5 @@ body,html{
 	margin-left: 50px;
 	margin-top: 10px;
 	margin-right: 50px;
+	border-radius: 100%;
 }
-<div style="position: absolute; border: 1px solid red;width: 50px; border-bottom: 0px;height: 50px; z-index: 100;" id="1">11</div>
-     <div style="position: absolute;width: 50px; height: 50px;border: 1px solid red;border-bottom: 0px;margin-left: 50px;" id="2">22</div>
-     <div style="position: absolute;width: 50px;margin-left: 100px; height: 50px;border: 1px solid red;border-bottom: 0px;" id="3">33</div>
-     <div style="position: absolute; border: 1px solid red;height: 500px;z-index: -1; margin-top: 49px; width: 1500px;" id="con">
-     	d 
-     </div>
-     <script src="bootstrap/js/jquery.min.js"></script>
-     <script type="text/javascript">
-     	 $(function(){
-     	 	$("#1").click(function(){
-                $("#1").css("border-bottom", "1px solid #fff");
-                 $("#3").css("border-bottom", "1px solid red");
-                  $("#2").css("border-bottom", "1px solid red");
-     	 	});
-     	 });
-     	 $(function(){
-     	 	$("#2").click(function(){
-                $("#2").css("border-bottom", "1px solid #fff");
-                $("#1").css("border-bottom", "1px solid red");
-                 $("#3").css("border-bottom", "1px solid red");
-     	 	});
-     	 });
-     	 $(function(){
-     	 	$("#3").click(function(){
-                $("#3").css("border-bottom", "1px solid #fff");
-                $("#1").css("border-bottom", "1px solid red");
-                 $("#2").css("border-bottom", "1px solid red");
-     	 	});
-     	 });
-     </script>
