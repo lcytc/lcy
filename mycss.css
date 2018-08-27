@@ -5,10 +5,8 @@ body,html{
 	right: 0px;
 	bottom: 0px;
 }
-.container{
-	top: 10px;
-	background-image: url("5.jpg");
-	background-attachment: fixed;
-	margin-top: 10px;
-	width:100%;
+.con{
+	background-image: url(5.jpg);
+	background-size: 100% 100%;
+	position: absolute;
 }
