@@ -12,7 +12,6 @@ body,html{
 	bottom: 10px;
 	background-image: url("3.jpg");
 	background-attachment: fixed;
-	border: 1px solid red;
 	margin-top: 10px;
 	border-radius: 100%;
 }
