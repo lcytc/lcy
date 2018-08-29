@@ -22,17 +22,31 @@
  	<div class="view" id="3" onclick="live(this)"></div>
  	<div class="view" id="4" onclick="live(this)"></div>
  	<div class="view" id="5" onclick="live(this)"></div>
+ 	<div> <img src="9.jpg" style="width: 40%;height: 30%;margin-top: 50%;margin-left: 10%"></div>
  </div>
 <script>
 	function onclick1(){
 		var j = document.getElementById("1");
+		var a = document.getElementById("2");
+		var b = document.getElementById("3");
+		var c = document.getElementById("4");
+		var d = document.getElementById("5");
+		a.style.width="0px";
+		j.style.width="0px";
+		b.style.width="0px";
+		c.style.width="0px";
+		d.style.width="0px";
 		j.innerHTML="<p></p>";
+		a.innerHTML="<p></p>";
+		b.innerHTML="<p></p>";
+		c.innerHTML="<p></p>";
+		d.innerHTML="<p></p>";
 		var e = 0;
 		var i = setInterval(function(){
 				e+=20;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/72+"%";
-                j.style.height=e*10/15+"px";
+				j.style.width=e*9.7/48+"%";
+                j.style.height=e*36/40+"px";
 				if(e>340){
 					clearInterval(i);
 					j.innerHTML="&nbsp&nbsp&nbsp&nbsp姓名：柳昌源&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp婚姻状况：未婚<br><hr>&nbsp&nbsp&nbsp&nbsp出  生：1996-12-22&nbsp&nbsp&nbsp&nbsp&nbsp职位:大数据<br><hr>&nbsp&nbsp&nbsp&nbsp性  别：男&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp民    族：汉<br><hr>&nbsp&nbsp&nbsp&nbsp学  位：本科&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp移动电话：188****4505<br><hr>&nbsp&nbsp&nbsp&nbsp专  业：通信工程&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp邮箱：1458672414@qq.com<br><hr>&nbsp&nbsp&nbsp&nbsp现住地址： 浙江省杭州xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;<hr>";
@@ -45,24 +59,38 @@
 		var i = setInterval(function(){
 				e-=20;
 				id.style.transform="rotate("+e+"deg)";
-				id.style.width=e*9.7/72+"%";
-                id.style.height=e*10/15+"px";
+				id.style.width=e*9.7/48+"%";
+                id.style.height=e*36/40+"px";
 				if(e<20){
 					clearInterval(i);	
 				}
 			},100);
 		
 	}
+
 	function onclick2(){
 		var j = document.getElementById("2");
+		var a = document.getElementById("1");
+		var b = document.getElementById("3");
+		var c = document.getElementById("4");
+		var d = document.getElementById("5");
+		a.style.width="0px";
+		j.style.width="0px";
+		b.style.width="0px";
+		c.style.width="0px";
+		d.style.width="0px";
+		a.innerHTML="<p></p>";
+		b.innerHTML="<p></p>";
+		c.innerHTML="<p></p>";
+		d.innerHTML="<p></p>";
 		j.innerHTML="<p></p>";
 		var e = 0;
 		var i = setInterval(function(){
-				e+=10;
+				e+=20;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/72+"%";
-                j.style.height=e*10/12+"px";
-				if(e>350){
+				j.style.width=e*9.7/48+"%";
+                j.style.height=e*36/40+"px";
+				if(e>340){
 					clearInterval(i);
 					j.innerHTML="&nbsp&nbsp&nbsp&nbsp教育背景:2015.9-2019.6&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp浙江理工大学(本科)<br><hr>&nbsp&nbsp&nbsp&nbsp本科阶段主修:Java，C语言基础，模拟电子技术，数字信号<br><hr>&nbsp&nbsp&nbsp&nbsp处理,电路原理基础，通信原理，数字电子技术，信号与系统，<br><hr>&nbsp&nbsp&nbsp&nbsp高等数学…<br><hr>&nbsp&nbsp&nbsp&nbsp计算机能力:能熟悉使用eclise工具以及matlab、multisim等<br><hr>&nbsp&nbsp&nbsp&nbsp软件。<br><hr>&nbsp&nbsp&nbsp&nbsp奖励情况：优秀班干部（学习委员）获国家计算机二级等级<br><hr>&nbsp&nbsp&nbsp&nbsp资格证书。2015思想道德修养与法律基础校优秀论文<hr>";
 				}
@@ -71,14 +99,27 @@
 
 	function onclick3(){
 		var j = document.getElementById("3");
+		var a = document.getElementById("1");
+		var b = document.getElementById("2");
+		var c = document.getElementById("4");
+		var d = document.getElementById("5");
+		a.style.width="0px";
+		j.style.width="0px";
+		b.style.width="0px";
+		c.style.width="0px";
+		d.style.width="0px";
+		a.innerHTML="<p></p>";
+		b.innerHTML="<p></p>";
+		c.innerHTML="<p></p>";
+		d.innerHTML="<p></p>";
 		j.innerHTML="<p></p>";
 		var e = 0;
 		var i = setInterval(function(){
-				e+=10;
+				e+=20;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/72+"%";
-                j.style.height=e*10/12+"px";
-				if(e>350){
+				j.style.width=e*9.7/48+"%";
+                j.style.height=e*36/40+"px";
+				if(e>340){
 					clearInterval(i);   
 					j.innerHTML="&nbsp&nbsp&nbsp&nbsp文化大革命如火如荼进行的同时。军方探寻外星文明的绝秘 <br><hr>&nbsp&nbsp&nbsp&nbsp计划“红岸工程”取得了突破性进展。但在按下发射键的那一<br><hr>&nbsp&nbsp&nbsp&nbsp  刻，历经劫难的叶文洁没有意识到，她彻底改变了人类的<br><hr>&nbsp&nbsp&nbsp&nbsp 命运。地球文明向宇宙发出的第一声啼鸣，以太阳为中心，<br><hr>&nbsp&nbsp&nbsp&nbsp以光速向宇宙深处飞驰……<hr>";
 				}
@@ -87,14 +128,27 @@
 	
 	function onclick4(){
 		var j = document.getElementById("4");
+		var a = document.getElementById("1");
+		var b = document.getElementById("3");
+		var c = document.getElementById("2");
+		var d = document.getElementById("5");
+		a.style.width="0px";
+		j.style.width="0px";
+		b.style.width="0px";
+		c.style.width="0px";
+		d.style.width="0px";
+		a.innerHTML="<p></p>";
+		b.innerHTML="<p></p>";
+		c.innerHTML="<p></p>";
+		d.innerHTML="<p></p>";
 		j.innerHTML="<p></p>";
 		var e = 0;
 		var i = setInterval(function(){
-				e+=10;
+				e+=20;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/72+"%";
-                j.style.height=e*10/15+"px";
-				if(e>350){
+				j.style.width=e*9.7/48+"%";
+                j.style.height=e*36/40+"px";
+				if(e>340){
 					clearInterval(i);
 					j.innerHTML="<br><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp兴趣爱好:喜欢下象棋，打游戏，看小说，看直播。<hr>"
 				}
@@ -103,14 +157,27 @@
 
 	function onclick5(){
 		var j = document.getElementById("5");
+		var a = document.getElementById("1");
+		var b = document.getElementById("3");
+		var c = document.getElementById("4");
+		var d = document.getElementById("2");
+		a.style.width="0px";
+		j.style.width="0px";
+		b.style.width="0px";
+		c.style.width="0px";
+		d.style.width="0px";
+		a.innerHTML="<p></p>";
+		b.innerHTML="<p></p>";
+		c.innerHTML="<p></p>";
+		d.innerHTML="<p></p>";
 		j.innerHTML="<p></p>";
 		var e = 0;
 		var i = setInterval(function(){
-				e+=10;
+				e+=20;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/72+"%";
-                j.style.height=e*10/15+"px";
-				if(e>350){
+				j.style.width=e*9.7/48+"%";
+                j.style.height=e*36/40+"px";
+				if(e>340){
 					clearInterval(i);
 					j.innerHTML="&nbsp&nbsp&nbsp&nbsp自我评价:本人性格开朗，为人细心，做事一丝不苟，能吃<br><hr>&nbsp&nbsp&nbsp&nbsp苦耐劳，工作脚踏实地，有较强的责任心，具有团队合作精<br><hr>&nbsp&nbsp&nbsp&nbsp神，又具有较强的独立工作能力，思维活跃。能熟练运用<br><hr>&nbsp&nbsp&nbsp&nbspWindows Office Word、Excel、XXX等应用软件，能根据XXX<br><hr>&nbsp&nbsp&nbsp&nbsp的需求，完成面XXXX工作，具备良好的XXXX意识，极强的沟<br><hr>&nbsp&nbsp&nbsp&nbsp通能力与谈判能力。<hr>";
 				}
