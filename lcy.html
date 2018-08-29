@@ -5,7 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="mycss.css">
 </head>
 <body>
-<h1 style="text-align: center;font-size: 30px; text-shadow: 5px 5px 5px #FF0000;"> 柳昌源的个人简历</h1>
+	<marquee scrollamount="5" direction =right behavior=scroll> 
+		<h1 style="text-align: center;font-size: 30px; text-shadow: 5px 5px 5px #FF0000;"> 柳昌源的个人简历
+		</h1></marquee>
  <div class="con">
  	<p class="a" onclick="onclick1()">个人信息</p>
  	<p class="a" onclick="onclick2()">在校经历</p>
@@ -23,7 +25,6 @@
  </div>
 <script>
 	function onclick1(){
-
 		var j = document.getElementById("1");
 		j.innerHTML="<p></p>";
 		var e = 0;
@@ -42,11 +43,11 @@
 		id.innerHTML="<p></p>";
 		var e = 360;
 		var i = setInterval(function(){
-				e-=10;
+				e-=20;
 				id.style.transform="rotate("+e+"deg)";
-				id.style.width=e*9.7/36+"%";
-                id.style.height=e*10/9+"px";
-				if(e<10){
+				id.style.width=e*9.7/72+"%";
+                id.style.height=e*10/15+"px";
+				if(e<20){
 					clearInterval(i);	
 				}
 			},100);
@@ -59,11 +60,11 @@
 		var i = setInterval(function(){
 				e+=10;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/36+"%";
-                j.style.height=e*10/9+"px";
+				j.style.width=e*9.7/72+"%";
+                j.style.height=e*10/12+"px";
 				if(e>350){
 					clearInterval(i);
-					j.innerHTML="saddddddddddddddddd<br>ddddddddddddddddddddddddddddddddddddddddddddddddddd";
+					j.innerHTML="&nbsp&nbsp&nbsp&nbsp教育背景:2015.9-2019.6&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp浙江理工大学(本科)<br><hr>&nbsp&nbsp&nbsp&nbsp本科阶段主修:Java，C语言基础，模拟电子技术，数字信号<br><hr>&nbsp&nbsp&nbsp&nbsp处理,电路原理基础，通信原理，数字电子技术，信号与系统，<br><hr>&nbsp&nbsp&nbsp&nbsp高等数学…<br><hr>&nbsp&nbsp&nbsp&nbsp计算机能力:能熟悉使用eclise工具以及matlab、multisim等<br><hr>&nbsp&nbsp&nbsp&nbsp软件。<br><hr>&nbsp&nbsp&nbsp&nbsp奖励情况：优秀班干部（学习委员）获国家计算机二级等级<br><hr>&nbsp&nbsp&nbsp&nbsp资格证书。2015思想道德修养与法律基础校优秀论文<hr>";
 				}
 			},100);
 	}
@@ -75,11 +76,11 @@
 		var i = setInterval(function(){
 				e+=10;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/36+"%";
-                j.style.height=e*10/9+"px";
+				j.style.width=e*9.7/72+"%";
+                j.style.height=e*10/12+"px";
 				if(e>350){
-					clearInterval(i);
-					j.innerHTML="saddddddddddddddddd<br>ddddddddddddddddddddddddddddddddddddddddddddddddddd";
+					clearInterval(i);   
+					j.innerHTML="&nbsp&nbsp&nbsp&nbsp文化大革命如火如荼进行的同时。军方探寻外星文明的绝秘 <br><hr>&nbsp&nbsp&nbsp&nbsp计划“红岸工程”取得了突破性进展。但在按下发射键的那一<br><hr>&nbsp&nbsp&nbsp&nbsp  刻，历经劫难的叶文洁没有意识到，她彻底改变了人类的<br><hr>&nbsp&nbsp&nbsp&nbsp 命运。地球文明向宇宙发出的第一声啼鸣，以太阳为中心，<br><hr>&nbsp&nbsp&nbsp&nbsp以光速向宇宙深处飞驰……<hr>";
 				}
 			},100);
 	}
@@ -91,11 +92,11 @@
 		var i = setInterval(function(){
 				e+=10;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/36+"%";
-                j.style.height=e*10/9+"px";
+				j.style.width=e*9.7/72+"%";
+                j.style.height=e*10/15+"px";
 				if(e>350){
 					clearInterval(i);
-					j.innerHTML=""
+					j.innerHTML="<br><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp兴趣爱好:喜欢下象棋，打游戏，看小说，看直播。<hr>"
 				}
 			},100);
 	}
@@ -107,11 +108,11 @@
 		var i = setInterval(function(){
 				e+=10;
 				j.style.transform="rotate("+e+"deg)";
-				j.style.width=e*9.7/36+"%";
-                j.style.height=e*10/9+"px";
+				j.style.width=e*9.7/72+"%";
+                j.style.height=e*10/15+"px";
 				if(e>350){
 					clearInterval(i);
-					j.innerHTML="saddddddddddddddddd<br>ddddddddddddddddddddddddddddddddddddddddddddddddddd";
+					j.innerHTML="&nbsp&nbsp&nbsp&nbsp自我评价:本人性格开朗，为人细心，做事一丝不苟，能吃<br><hr>&nbsp&nbsp&nbsp&nbsp苦耐劳，工作脚踏实地，有较强的责任心，具有团队合作精<br><hr>&nbsp&nbsp&nbsp&nbsp神，又具有较强的独立工作能力，思维活跃。能熟练运用<br><hr>&nbsp&nbsp&nbsp&nbspWindows Office Word、Excel、XXX等应用软件，能根据XXX<br><hr>&nbsp&nbsp&nbsp&nbsp的需求，完成面XXXX工作，具备良好的XXXX意识，极强的沟<br><hr>&nbsp&nbsp&nbsp&nbsp通能力与谈判能力。<hr>";
 				}
 			},100);
 	}
